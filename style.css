@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1d1f21;
+    font-family: 'Arial', sans-serif;
+}
+
+.clock {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 15px solid #f0c040;
+    border-radius: 50%; 
+    background-color: #333;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+
+.btn{
+    margin-top: -40%;
+}
+button{
+    background-color: #1a1818 ;
+    color: #f0c040;
+    width: 80px;
+    height: 40px;
+    border-radius: 30%;
+}
+
+
+.hand {
+    position: absolute;
+    background: #f0c040;
+    border-radius: 10px;
+    transform-origin: bottom;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hour-hand {
+    width: 8px;
+    height: 60px;
+}
+
+.minute-hand {
+    width: 6px;
+    height: 90px;
+}
+
+.second-hand {
+    width: 2px;
+    height: 100px;
+    background: red;
+}
+
+.center-circle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #f0c040;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.number {
+    position: absolute;
+    color: #f0c040;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.number1{
+    margin-top: 10px;
+    margin-left: 140px ;
+}
+.number2{
+    margin-top: 30px;
+    margin-left: 200px ;
+}
+.number3{
+    margin-top: 70px;
+    margin-left: 250px ;
+}
+.number4{
+    margin-top: 130px;
+    margin-left: 270px ;
+}
+.number5{
+    margin-top: 200px;
+    margin-left: 250px ;
+}
+.number6{
+    margin-top: 240px;
+    margin-left: 200px ;
+}
+.number7{
+    margin-top: 260px;
+    margin-left: 140px ;
+}
+.number8{
+    margin-top: 240px;
+    margin-left: 80px ;
+}
+.number9{
+    margin-top: 198px;
+    margin-left: 37px ;
+}
+.number10{
+    margin-top: 130px;
+    margin-left: 20px ;
+}
+.number11{
+    margin-top: 70px;
+    margin-left: 37px ;
+}
+.number12{
+    margin-top: 30px;
+    margin-left: 80px ;
+}
+
+.brand{
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.class{
+    color: #ccc;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 130px;
+    margin-left: 124px;
+}
+
+
